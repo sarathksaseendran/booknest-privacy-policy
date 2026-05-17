@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy Policy | BookNest</title>
+    <link rel="icon" type="image/png" href="logo/app_logo.png">
     <meta name="description"
         content="Privacy Policy for BookNest EPUB Reader. I respect your privacy and keep your reading data locally on your device.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -54,18 +55,21 @@
         .logo {
             font-size: 1.8rem;
             font-weight: 700;
-            background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
             display: flex;
             align-items: center;
             gap: 0.5rem;
         }
 
-        .logo svg {
+        .logo span {
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .logo img {
             width: 32px;
             height: 32px;
-            fill: url(#gradient);
+            object-fit: contain;
         }
 
         main {
@@ -197,20 +201,10 @@
 </head>
 
 <body>
-    <svg width="0" height="0">
-        <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop stop-color="#8b5cf6" offset="0%" />
-            <stop stop-color="#6366f1" offset="100%" />
-        </linearGradient>
-    </svg>
-
     <header>
         <div class="logo">
-            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path
-                    d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V5H6.5A2.5 2.5 0 0 0 4 7.5v12Zm0 0A2.5 2.5 0 0 0 6.5 22H20v-2H6.5a.5.5 0 0 1-.5-.5v-.5Z" />
-            </svg>
-            BookNest
+            <img src="logo/app_logo.png" alt="BookNest Logo">
+            <span>BookNest</span>
         </div>
     </header>
 
