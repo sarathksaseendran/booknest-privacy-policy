@@ -16,8 +16,8 @@
             --bg-color: #0f1115;
             --text-primary: #e2e8f0;
             --text-secondary: #94a3b8;
-            --accent-primary: #8b5cf6;
-            --accent-secondary: #6366f1;
+            --accent-primary: #fc6200;
+            --accent-secondary: #ff8c42;
             --card-bg: rgba(30, 33, 40, 0.6);
             --card-border: rgba(255, 255, 255, 0.05);
         }
@@ -39,8 +39,8 @@
             align-items: center;
             overflow-x: hidden;
             background-image:
-                radial-gradient(circle at 15% 50%, rgba(139, 92, 246, 0.15), transparent 25%),
-                radial-gradient(circle at 85% 30%, rgba(99, 102, 241, 0.15), transparent 25%);
+                radial-gradient(circle at 15% 50%, rgba(252, 98, 0, 0.15), transparent 25%),
+                radial-gradient(circle at 85% 30%, rgba(255, 140, 66, 0.15), transparent 25%);
             background-attachment: fixed;
         }
 
@@ -61,9 +61,7 @@
         }
 
         .logo span {
-            background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            color: var(--accent-primary);
         }
 
         .logo img {
