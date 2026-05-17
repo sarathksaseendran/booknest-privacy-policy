@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | BookNest</title>
+    <meta name="description"
+        content="Privacy Policy for BookNest EPUB Reader. We respect your privacy and keep your reading data locally on your device.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #0f1115;
+            --text-primary: #e2e8f0;
+            --text-secondary: #94a3b8;
+            --accent-primary: #8b5cf6;
+            --accent-secondary: #6366f1;
+            --card-bg: rgba(30, 33, 40, 0.6);
+            --card-border: rgba(255, 255, 255, 0.05);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            overflow-x: hidden;
+            background-image:
+                radial-gradient(circle at 15% 50%, rgba(139, 92, 246, 0.15), transparent 25%),
+                radial-gradient(circle at 85% 30%, rgba(99, 102, 241, 0.15), transparent 25%);
+            background-attachment: fixed;
+        }
+
+        header {
+            width: 100%;
+            padding: 2rem;
+            display: flex;
+            justify-content: center;
+            animation: fadeInDown 0.8s ease-out;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .logo svg {
+            width: 32px;
+            height: 32px;
+            fill: url(#gradient);
+        }
+
+        main {
+            flex: 1;
+            width: 100%;
+            max-width: 800px;
+            padding: 2rem;
+            animation: fadeInUp 0.8s ease-out 0.2s both;
+        }
+
+        .glass-card {
+            background: var(--card-bg);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid var(--card-border);
+            border-radius: 24px;
+            padding: 3rem;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .glass-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+
+        .effective-date {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            display: block;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        h2::before {
+            content: '';
+            display: inline-block;
+            width: 8px;
+            height: 24px;
+            background: linear-gradient(to bottom, var(--accent-primary), var(--accent-secondary));
+            border-radius: 4px;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            color: var(--text-secondary);
+        }
+
+        ul {
+            margin-bottom: 1rem;
+            padding-left: 1.5rem;
+            color: var(--text-secondary);
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        footer {
+            width: 100%;
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            animation: fadeInUp 0.8s ease-out 0.4s both;
+        }
+
+        a {
+            color: var(--accent-primary);
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        a:hover {
+            color: var(--accent-secondary);
+            text-decoration: underline;
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media (max-width: 600px) {
+            .glass-card {
+                padding: 2rem;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <svg width="0" height="0">
+        <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop stop-color="#8b5cf6" offset="0%" />
+            <stop stop-color="#6366f1" offset="100%" />
+        </linearGradient>
+    </svg>
+
+    <header>
+        <div class="logo">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V5H6.5A2.5 2.5 0 0 0 4 7.5v12Zm0 0A2.5 2.5 0 0 0 6.5 22H20v-2H6.5a.5.5 0 0 1-.5-.5v-.5Z" />
+            </svg>
+            BookNest
+        </div>
+    </header>
+
+    <main>
+        <div class="glass-card">
+            <h1>Privacy Policy</h1>
+            <span class="effective-date">Effective Date: May 17, 2026</span>
+
+            <p>Welcome to BookNest. We are committed to protecting your privacy and ensuring that your reading
+                experience is secure and entirely within your control.</p>
+
+            <h2>1. Information We Collect</h2>
+            <p><strong>BookNest does not collect, transmit, or store any of your personal information on our
+                    servers.</strong></p>
+            <p>Our app is designed to be a local-first EPUB reader. This means:</p>
+            <ul>
+                <li>All the books you import are stored locally on your device.</li>
+                <li>Your reading progress, highlights, notes, and collections are saved locally on your device.</li>
+                <li>We do not require you to create an account or log in to use the app.</li>
+            </ul>
+
+            <h2>2. Permissions</h2>
+            <p>To provide core functionality, BookNest may request the following permissions on your device:</p>
+            <ul>
+                <li><strong>Storage Access:</strong> Required to scan for and import EPUB files from your device, and to
+                    save your reading data and library configurations.</li>
+            </ul>
+
+            <h2>3. Third-Party Services</h2>
+            <p>We do not integrate third-party trackers, analytics, or advertising SDKs in the core reading experience.
+                Your reading habits are your own business.</p>
+
+            <h2>4. Changes to This Privacy Policy</h2>
+            <p>We may update our Privacy Policy from time to time. Since we do not collect your contact information, we
+                recommend checking this page periodically for any changes. Changes are effective immediately after they
+                are posted.</p>
+
+            <h2>5. Contact Us</h2>
+            <p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at <a
+                    href="mailto:sharathbasic@gmail.com">sharathbasic@gmail.com</a>.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 BookNest. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
